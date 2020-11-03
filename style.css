@@ -145,7 +145,6 @@ h2 {
 }
   
 
-
 .btn {
 	line-height: 50px;
 	height: 50px;
@@ -205,4 +204,80 @@ h2 {
 .btn-one:hover::after {
 	opacity: 0;	
 	transform: scale(0.1, 1);
+}
+
+
+/* //O NAS  */
+
+
+.flex .col img {
+	/* width: 100%; */
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.flex {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	width: 960px;
+	max-width: 100%;
+	margin: auto;
+}
+
+
+.flex .col {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+	flex: 1 1 300px;
+	margin: 1em;
+}
+
+
+.flex .col .btn {
+  align-self: center;
+	margin-top: auto;
+}
+
+
+@media (max-width: 900px) {
+	.flex {
+    flex-wrap: wrap;
+
+	}
+}
+
+
+.question,
+.nadpis_onas,
+.answer {
+  color: azure;
+  text-align: center;
+}
+
+.question {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.nadpis_onas {
+  font-size: 26px;
+  font-weight: 800 ;
+ 
+}
+
+.answer {
+  font-size: 14px;
+  font-weight: 300;
+
+}
+
+.container_footer {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+
 }
