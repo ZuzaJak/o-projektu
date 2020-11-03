@@ -12,7 +12,6 @@ html {
 
 
 body {
-  margin: 0;
   background: linear-gradient(90deg,#F7971E,#FFD200 100%);
   background-attachment: fixed;
   color: rgba(0, 0, 0, 0.7);
@@ -35,6 +34,14 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.photo-index{
+  margin: 10px;
+  width: 280px;
+  border-radius: 50%;
+}
+
+
 
 .photo {
   margin: 10px;
@@ -250,6 +257,14 @@ h2 {
 }
 
 
+.card {
+
+ padding: 20px;
+ box-shadow: 0 0 20px rgba(0,0,0,0.35);
+
+
+}
+
 .question,
 .nadpis_onas,
 .answer {
@@ -280,3 +295,4 @@ h2 {
   flex-direction: column;
 
 }
+
