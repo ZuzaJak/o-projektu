@@ -24,6 +24,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin:0;
 }
 .container2 {
   width: 95%;
@@ -53,6 +54,8 @@ h1 {
 h2 {
   color: white;
   font-weight: 300;
+  font-size: 14px;
+  margin: 0
 }
 .names {
   display: flex;
@@ -246,7 +249,7 @@ h2 {
   font-size: 14px;
   font-weight: 300;
 }
-.container_footer {
+.container_nav {
   margin: 20px;
   display: flex;
   flex-direction: column;
