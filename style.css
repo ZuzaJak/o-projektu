@@ -251,6 +251,16 @@ h2 {
   display: flex;
   flex-direction: column;
 }
+
+.logo_github {
+  margin: 10px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+
+
+
 /* projekt.html */
 .flex-projekt {
   display: flex;
@@ -271,3 +281,4 @@ h2 {
 .projekt-ul {
   text-align: start;
 }
+
