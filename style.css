@@ -24,7 +24,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin:0;
+  margin: 0;
 }
 .container2 {
   width: 95%;
@@ -50,12 +50,13 @@ body {
 h1 {
   color: white;
   text-align: center;
+  margin-top: 40px;
 }
 h2 {
   color: white;
   font-weight: 300;
   font-size: 14px;
-  margin: 0
+  margin: 0;
 }
 .names {
   display: flex;
@@ -78,64 +79,6 @@ h2 {
   color: rgba(0, 0, 0, 0.76);
   font-weight: 500;
 }
-.menu {
-  margin-top: 30px;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-}
-.menu2 {
-  margin-top: 30px;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-}
-.menu2 .item {
-  width: 100px;
-  margin-right: 20px;
-}
-@media only screen and (min-width: 600px) {
-  .menu {
-    flex-direction: row;
-    justify-content: space-between;
-    width: 600px;
-    height: 55px;
-  }
-  .menu2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 100%;
-  }
-  .menu2 .item {
-    width: 100px;
-    margin-right: 20px;
-  }
-}
-.item {
-  padding: 17px;
-  margin-bottom: 20px;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-  border-radius: 10px;
-  background-color: #eb39ea;
-  border: solid 1px #eb39ea;
-  transition: 0.3s;
-}
-@media only screen and (min-width: 600px) {
-  .item {
-    margin-bottom: 0;
-    flex-basis: 20%;
-  }
-}
-.item:hover {
-  background-color: #f38df3;
-  border: solid 1px#F38DF3;
-  transition: 0.3s;
-}
-
 /* //stylovani buttonu  */
 
 .box-1 {
@@ -217,6 +160,7 @@ h2 {
   align-items: center;
   max-width: 100%;
   margin: auto;
+  margin-bottom: 30px;
 }
 .flex .col {
   display: flex;
@@ -234,8 +178,12 @@ h2 {
   }
 }
 .card {
+  flex: 1 1 40%;
+  max-width: 500px;
+  min-height: 350px;
   padding: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+  background: linear-gradient(rgba(233, 113, 14, 0.4), rgba(235, 21, 21, 0.3));
 }
 .question {
   font-size: 14px;
@@ -254,16 +202,11 @@ h2 {
   display: flex;
   flex-direction: column;
 }
-
 .logo_github {
   margin: 10px;
   width: 30px;
   border-radius: 50%;
 }
-
-
-
-
 /* projekt.html */
 .flex-projekt {
   display: flex;
@@ -274,14 +217,18 @@ h2 {
   margin: 40px;
 }
 .card-projekt {
-  line-height: 30px;
-  width: 600px;
   padding: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
   font-size: 16px;
   font-weight: 300;
+  background: linear-gradient(rgba(233, 113, 14, 0.4), rgba(235, 21, 21, 0.3));
+}
+@media only screen and (min-width: 600px) {
+  .card-projekt {
+    flex: 1 1 50%;
+  }
 }
 .projekt-ul {
   text-align: start;
+  line-height: 40px;
 }
-
