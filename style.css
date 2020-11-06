@@ -5,11 +5,9 @@
 }
 body,
 html {
-  width: 100%;
   min-height: 100vh;
   margin: 0;
 }
-
 body {
   background: linear-gradient(90deg, #f7971e, #ffd200 100%);
   background-attachment: fixed;
@@ -18,12 +16,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 .container {
-  width: 100%;
-  min-height: 100vh;
+  width: 95%;
+  margin: auto;
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 0;
 }
 .container2 {
   width: 95%;
@@ -33,17 +30,25 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 .photo-index {
   margin: 10px;
-  width: 400px;
+  width: 250px;
   border-radius: 50%;
 }
-
-.photo {
-  margin: 10px;
-  width: 140px;
-  border-radius: 50%;
+@media (min-width: 400px) {
+  .photo-index {
+    width: 300px;
+  }
+}
+@media (min-width: 600px) {
+  .photo-index {
+    width: 400px;
+  }
+}
+@media (min-width: 800px) {
+  .photo-index {
+    width: 500px;
+  }
 }
 
 h1 {
@@ -56,22 +61,6 @@ h2 {
   font-weight: 300;
   font-size: 14px;
   margin: 0;
-}
-.names {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-@media only screen and (min-width: 600px) {
-  .names {
-    text-align: center;
-    width: 50%;
-    justify-content: center;
-    flex-direction: row;
-  }
-  .and {
-    padding: 0 15px 0 15px;
-  }
 }
 .contact {
   text-decoration: none;
@@ -230,4 +219,19 @@ h2 {
 .projekt-ul {
   text-align: start;
   line-height: 40px;
+}
+/* footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer h2 {
+  margin: 0 10px;
 }
