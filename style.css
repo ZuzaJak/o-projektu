@@ -56,27 +56,11 @@ h2 {
   font-weight: 300;
   font-size: 14px;
   margin: 0;
-}
+/* }
 .names {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-@media only screen and (min-width: 600px) {
-  .names {
-    text-align: center;
-    width: 50%;
-    justify-content: center;
-    flex-direction: row;
-  }
-  .and {
-    padding: 0 15px 0 15px;
-  }
-}
-.contact {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.76);
-  font-weight: 500;
+  align-items: center; */
 }
 /* //stylovani buttonu  */
 
@@ -222,12 +206,31 @@ h2 {
   font-weight: 300;
   background: linear-gradient(rgba(233, 113, 14, 0.4), rgba(235, 21, 21, 0.3));
 }
+
+
+
 @media only screen and (min-width: 600px) {
-  .card-projekt {
-    flex: 1 1 50%;
+  .names {
+    text-align: center;
+    width: 50%;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .and {
+    padding: 0 15px 0 15px;
   }
 }
+.contact {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.76);
+  font-weight: 500;
+}
+
+.card-projekt {
+  flex: 1 1 50%;
+}
+
 .projekt-ul {
-  text-align: start;
-  line-height: 40px;
+text-align: start;
+line-height: 40px;
 }
