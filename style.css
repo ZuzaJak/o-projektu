@@ -61,7 +61,7 @@ h2 {
   font-weight: 300;
   font-size: 14px;
   margin: 0;
-/* }
+  /* }
 .names {
   display: flex;
   flex-direction: column;
@@ -135,7 +135,11 @@ h2 {
 }
 
 /* //O NAS  */
-
+.photo {
+  margin: 10px;
+  width: 140px;
+  border-radius: 50%;
+}
 .flex .col img {
   /* width: 100%; */
   height: auto;
@@ -215,33 +219,28 @@ h2 {
 /* //FOOTER  */
 
 .footer-names {
-font-size: 12px;
-font-weight: 400;
-
+  font-size: 12px;
+  font-weight: 400;
 }
 
 .coding-icon {
-width: 15px;
-filter: invert();
+  width: 15px;
+  filter: invert();
 }
 
-
 .footer-end {
-font-size: 10px;
-font-weight: 200;
-font-style: italic;
-
+  font-size: 10px;
+  font-weight: 200;
+  font-style: italic;
 }
 
 .podtrzeni::after {
-  content: " ";
+  content: ' ';
   display: block;
   width: 230px;
   height: 1.5px;
   background-color: white;
   margin: 0 auto;
-
-
 }
 
 @media only screen and (min-width: 600px) {
@@ -266,6 +265,6 @@ font-style: italic;
 }
 
 .projekt-ul {
-text-align: start;
-line-height: 40px;
+  text-align: start;
+  line-height: 40px;
 }
