@@ -32,7 +32,7 @@ body {
 }
 
 .text-index {
-font-size: 24px;
+font-size: 28px;
 font-family: 'Itim', cursive;
 margin: 0;
 }
@@ -247,10 +247,10 @@ h2 {
 .podtrzeni::after {
   content: ' ';
   display: block;
-  width: 280px;
+  width: 220px;
   height: 1px;
   background-color: white;
-  margin: 0 auto;
+  margin: auto;
 }
 
 @media only screen and (min-width: 600px) {
